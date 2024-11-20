@@ -1,0 +1,57 @@
+# Файлы сборки
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Каталоги сборки
+build*/
+debug/
+release/
+
+# Makefile и другие временные файлы сборки
+Makefile*
+qrc_*.cpp
+moc_*.cpp
+ui_*.h
+*.qrc.dep
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+*.bak
+*.user
+*.pro.user
+*.qmake.stash
+*.qmlc
+*.jsc
+
+# Каталоги Qt Creator
+.idea/
+.DS_Store
+
+# Сгенерированные файлы для CMake (если используется)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Каталог установки (если указан)
+install/
+
+# Сборочные временные файлы
+*.pyc
+*.pyo
+*.pdb
+*.ilk
+
+# Если используется qmake
+*.pri
+*.pro.user.*
+
+# Каталоги для пакетов
+dist/
+deploy/
